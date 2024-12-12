@@ -1,0 +1,41 @@
+{
+    "name": "wakatime",
+    "version": "1.0.0",
+    "description": "This bot is for CodeModule community Wakatime competition.",
+    "main": "",
+    "directories": {
+        "doc": "docs",
+        "test": "test",
+        "docs": "docs"
+    },
+    "scripts": {
+        "test": "",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CodeModule-ir/WakaTime.git"
+    },
+    "keywords": [
+        "wakatime",
+        "bot",
+        "telegram-bot",
+        "telegram",
+        "codeing"
+    ],
+    "author": "Mahdi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CodeModule-ir/WakaTime/issues"
+    },
+    "homepage": "https://github.com/CodeModule-ir/WakaTime#readme",
+    "dependencies": {
+        "@types/chai": "^5.0.1",
+        "@types/mocha": "^10.0.10",
+        "@types/node": "^22.10.2",
+        "chai": "^5.1.2",
+        "mocha": "^11.0.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    }
+}

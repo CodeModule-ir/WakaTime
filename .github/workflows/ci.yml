@@ -1,0 +1,22 @@
+name: Run Ci For WakaTime
+on:
+  push:
+    branches:
+      - main
+    tags: 
+      - "v*"
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Run WakaTime Test 
+        run: |  
+           # Just example (not implemented test)
+          echo "Running WakaTime CI step"
