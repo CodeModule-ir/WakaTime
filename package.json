@@ -29,15 +29,13 @@
         "url": "https://github.com/CodeModule-ir/WakaTime/issues"
     },
     "homepage": "https://github.com/CodeModule-ir/WakaTime#readme",
-    "dependencies": {
-        "chai": "^5.1.2",
-        "mocha": "^11.0.1",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.7.2"
-    },
     "devDependencies": {
         "@types/chai": "^5.2.1",
         "@types/mocha": "^10.0.10",
-        "@types/node": "^22.13.14"
+        "@types/node": "^22.13.14",
+        "chai": "^5.2.0",
+        "mocha": "^11.1.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.2"
     }
 }
